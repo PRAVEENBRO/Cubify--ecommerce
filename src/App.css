@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.body{
+  background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+  height: 100%;
+}
+
+
+.navbg{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(246,211,252,1) 0%, rgba(253,246,254,1) 90% );
+  
+}
+.border{
+  border: 2px solid white 
+}
+
+.footerlogo{
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+
+.pageup{
+  font-size: 2rem;
+  border: none;
+}
+
+.text{
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-family:cursive;
+}
+
+
+.bgc{
+background-color: rgba(150, 123, 123, 0.041)
+/* background: linear-gradient(to right, #000428, #004e92); */
+
+}
+
+.cart{
+  background-color:transparent;
+  outline: none;
+  color: white;
+  margin: auto;
+}
+
+.gif{
+height: 85vh;
+width: 130ch;
+margin: auto;
+
+}
+.margintop{
+  padding-top: 10vh !important
+}
+
+.Suspense{
+  margin: 40vh 0ch;
+  width: 100%;
+  color: white;
+}
+
+
+.cardShadow{
+  box-shadow: 4px 4px 28px 1px #0500007c;
+  color: white;
+  /* color: black; */
+  background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+  transition-duration: 0.3s;
+}
+
+.cardShadow:hover{
+  box-shadow: 18px 18px 28px 1px #e7dada7c;
+  background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+  box-shadow: 0px 0px 25px 10px rgb(62, 41, 155);
+  color: black;
+  transform: scale(1.05);
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #A770EF 0%, #CF8BF3  51%, #A770EF  100%)}
+.btn-grad {
+     /* text-align: center; */
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   display: block;
+ }
+ .btn-grad:hover  {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   /* box-shadow: 0 0 20px #eee; */
+   text-decoration: none;
+ }
+
+ @media only screen and (max-width:999px){
+  .btn-grad{
+  width: 100vw;
+  height: 2.4rem;
+  font-size: 10px;
+  }
+ } 
+
+ .card-img{
+   border-radius: 5%;
+   height: 100px;
+   width: 100px;
+   transition-duration: 1s;
+ }
+
+ .card-img:hover{
+  transform:scale(1)
+ }
+
+.cardbg{
+  /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% ); */
+  background-color: rgba(97,186,255)  !important ;
+  color: rgb(5, 3, 97);
+}
+ 
+
+.productimg{
+  height: 300px;
+  width: 300px;
+}
